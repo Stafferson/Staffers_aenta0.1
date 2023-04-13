@@ -80,90 +80,14 @@ const Home = ({
         <div className="container">
           <div className="row items-start">
             <div className="mb-12 lg:mb-0 lg:col-8">
-              {/* Featured posts */}
-              {featured_posts.enable && (
-                <div className="section">
-                  {markdownify(featured_posts.title, "h2", "section-title")}
-                  <div className="rounded border border-border p-6 dark:border-darkmode-border">
-                    <div className="row">
-                      <div className="md:col-6">
-                        <Post post={featuredPosts[0]} />
-                      </div>
-                      <div className="scrollbar-w-[10px] mt-8 max-h-[480px] scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-border dark:scrollbar-track-gray-800 dark:scrollbar-thumb-darkmode-theme-dark md:mt-0 md:col-6">
-                        {featuredPosts
-                          .slice(1, featuredPosts.length)
-                          .map((post, i, arr) => (
-                            <div
-                              className={`mb-6 flex items-center pb-6 ${
-                                i !== arr.length - 1 &&
-                                "border-b border-border dark:border-darkmode-border"
-                              }`}
-                              key={`key-${i}`}
-                            >
-                              {post.frontmatter.image && (
-                                <ImageFallback
-                                  className="mr-3 h-[85px] rounded object-cover"
-                                  src={post.frontmatter.image}
-                                  alt={post.frontmatter.title}
-                                  width={105}
-                                  height={85}
-                                />
-                              )}
-                              <div>
-                                <h3 className="h5 mb-2">
-                                  <Link
-                                    href={`/${blog_folder}/${post.slug}`}
-                                    className="block hover:text-primary"
-                                  >
-                                    {post.frontmatter.title}
-                                  </Link>
-                                </h3>
-                                <p className="inline-flex items-center font-bold">
-                                  <FaRegCalendar className="mr-1.5" />
-                                  {dateFormat(post.frontmatter.date)}
-                                </p>
-                              </div>
-                            </div>
-                          ))}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              )}
-
-              {/* Promotion */}
-              {promotion.enable && (
-                <Link href={promotion.link} className="section block pt-0">
-                  <ImageFallback
-                    className="h-full w-full"
-                    height="115"
-                    width="800"
-                    src={promotion.image}
-                    alt="promotion"
-                  />
-                </Link>
-              )}
-
               {/* Recent Posts */}
               {recent_posts.enable && (
                 <div className="section pt-0">
                   {markdownify(recent_posts.title, "h2", "section-title")}
-                  <div className="rounded border border-border px-6 pt-6 dark:border-darkmode-border">
-                    <div className="row">
-                      {sortPostByDate.slice(0, showPosts).map((post) => (
-                        <div className="mb-8 md:col-6" key={post.slug}>
-                          <Post post={post} />
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+                  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                  <div class="elfsight-app-8323ce91-d6ae-4e8f-baa5-7385a6e90d02"></div>
                 </div>
               )}
-
-              <Pagination
-                totalPages={Math.ceil(posts.length / showPosts)}
-                currentPage={1}
-              />
             </div>
             {/* sidebar */}
             <Sidebar

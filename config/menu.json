@@ -9,21 +9,26 @@
       "url": "/about"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Team",
+      "url": "/team"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Sponsors",
+      "url": "/sponsors"
     },
     {
-      "name": "Pages",
+      "name": "Contact Us",
+      "url": "/contactus"
+    },
+    
+    {
+      "name": "FTC Seasons",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Categories",
-          "url": "/categories"
+          "name": "Season 2022-2023",
+          "url": "/ftc-2022-2023"
         }
       ]
     }
@@ -38,12 +43,8 @@
       "url": "/about"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "Privacy Policy",
-      "url": "#"
+      "name": "Sponsors",
+      "url": "/sponsors"
     }
   ]
 }

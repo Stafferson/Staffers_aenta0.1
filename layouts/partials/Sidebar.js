@@ -190,7 +190,7 @@ const Sidebar = ({ posts, categories, className }) => {
             url={newsletter.malichip_url}
             render={({ subscribe, status, message }) => (
               <CustomForm
-                onValidated={(formData) => subscribe(formData)}
+                onValidated={() => {}}
                 status={status}
                 message={message}
               />

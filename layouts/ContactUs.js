@@ -4,7 +4,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 import { FaEnvelope, FaMapMarkerAlt, FaUserAlt } from "react-icons/fa";
 import ImageFallback from "./components/ImageFallback";
 
-const Contact = ({ data }) => {
+const ContactUs = ({ data }) => {
   const { frontmatter } = data;
   const { title, form_action, phone, mail, location } = frontmatter;
 
@@ -153,4 +153,4 @@ const Contact = ({ data }) => {
   );
 };
 
-export default Contact;
+export default ContactUs;
