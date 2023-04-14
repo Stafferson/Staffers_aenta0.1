@@ -14,10 +14,7 @@ const Team = ({ data }) => {
   return (
     <div className={styles.content}>
         <article className={styles.team}>
-            <h2 className={[
-                styles.team__title,
-                "text_center"
-            ].join(' ')}>
+            <h2 className={[styles.team__title, "text_center"].join(' ')} style={{textAlign: "center"}}>
                 Our Team
             </h2>
             <p className={[
@@ -47,7 +44,7 @@ const Team = ({ data }) => {
                                 <div className={styles.team__member__title}>
                                     <h3 className={[
                                         styles.team__member__name,
-                                        "text_bold pb-3"
+                                        "text_bold pb-1"
                                     ].join(' ')}>
                                         {member.name} {member.last_name}
                                     </h3>

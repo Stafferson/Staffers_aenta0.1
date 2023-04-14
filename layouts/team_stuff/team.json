@@ -5,7 +5,7 @@
         "badges": [
             "Captain"
         ],
-        "img_src": "/public/images/team/aenta_tair.jpg",
+        "img_src": "/images/team/aenta_tair.png",
         "text": "Love playing with balls"
     },
     {
@@ -14,7 +14,7 @@
         "badges": [
             "Co-Captain"
         ],
-        "img_src": "/public/images/team/aenta_adi.jpg",
+        "img_src": "/images/team/aenta_adi.png",
         "text": "The world would be a better place without me, which is why I have to keep living"
     },
     {
@@ -23,7 +23,7 @@
         "badges": [
             "Head Engineer"
         ],
-        "img_src": "/public/images/team/aenta_alibi.jpg",
+        "img_src": "/images/team/aenta_alibi.png",
         "text": "Wubba Lubba Dub Dub!"
     },
     {
@@ -32,7 +32,7 @@
         "badges": [
             "Programmer"
         ],
-        "img_src": "/public/images/team/aenta_altynai.jpg",
+        "img_src": "/images/team/aenta_altynai.png",
         "text": "I am programmer, and I love squares"
     },
     {
@@ -41,7 +41,7 @@
         "badges": [
             "Enginner"
         ],
-        "img_src": "/public/images/team/aenta_anel.jpg",
+        "img_src": "/images/team/aenta_anel.png",
         "text": "I love playing with triangles!"
     },
     {
@@ -50,7 +50,7 @@
         "badges": [
             "Engineer"
         ],
-        "img_src": "/public/images/team/aenta_aruzhan.jpg",
+        "img_src": "/images/team/aenta_aruzhan.png",
         "text": "Time will fix everything"
     },
     {
@@ -60,7 +60,7 @@
             "Programmer",
             "Designer"
         ],
-        "img_src": "/public/images/team/aenta_ayan.jpg",
+        "img_src": "/images/team/aenta_ayan.png",
         "text": "On a quest of world domination"
     },
     {
@@ -69,7 +69,7 @@
         "badges": [
             "Engineer"
         ],
-        "img_src": "/public/images/team/aenta_Ayana.jpg",
+        "img_src": "/images/team/aenta_Ayana.png",
         "text": "I’ve never felt the touch of a woman"
     },
     {
@@ -79,7 +79,7 @@
             "CAD",
             "NB"
         ],
-        "img_src": "/public/images/team/aenta_nurai.jpg",
+        "img_src": "/images/team/aenta_nurai.png",
         "text": "The most ingenious in the world are music and physics"
     },
     {
@@ -89,7 +89,7 @@
             "Engineer",
             "NB"
         ],
-        "img_src": "/public/images/team/aenta_ramazan.jpg",
+        "img_src": "/images/team/aenta_ramazan.png",
         "text": "Pacifico 11"
     },
     {
@@ -98,7 +98,7 @@
         "badges": [
             "Programmer"
         ],
-        "img_src": "/public/images/team/aenta_sanzhar.jpg",
+        "img_src": "/images/team/aenta_sanzhar.png",
         "text": "Steel ball run"
     },
     {
@@ -107,7 +107,7 @@
         "badges": [
             "CMM"
         ],
-        "img_src": "/public/images/team/aenta_shakir.jpg",
+        "img_src": "/images/team/aenta_shakir.png",
         "text": "Hard work pays off"
     },
     {
@@ -116,7 +116,7 @@
         "badges": [
             "Engineer"
         ],
-        "img_src": "/public/images/team/aenta_yerasyl.jpg",
+        "img_src": "/images/team/aenta_yerasyl.png",
         "text": "4.5 is almost 5"
     },
     {
@@ -126,7 +126,7 @@
             "NB",
             "Awards Manager"
         ],
-        "img_src": "/public/images/team/aenta_zhanel.jpg",
+        "img_src": "/images/team/aenta_zhanel.png",
         "text": "I love working"
     }
 ]

@@ -8,11 +8,14 @@
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: 0.25rem;
-
     background-color: var(--select-color);
+    background-color: #5CCAC7;
 }
 
 .badge__text {
     display: inline-block;
     vertical-align: middle;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
 }
