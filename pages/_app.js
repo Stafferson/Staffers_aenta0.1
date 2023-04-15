@@ -56,6 +56,12 @@ const App = ({ Component, pageProps }) => {
           content="width=device-width, initial-scale=1, maximum-scale=5"
         />
       </Head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-69CNW1RM58"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push('js', new Date());
+        dataLayer.push('config', 'G-69CNW1RM58');
+      </script>
       <ThemeProvider attribute="class" defaultTheme={default_theme}>
         <Component {...pageProps} />
       </ThemeProvider>

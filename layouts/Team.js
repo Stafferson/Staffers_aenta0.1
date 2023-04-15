@@ -6,13 +6,14 @@ import team from "./team_stuff/team.json";
 import DefaultImage from "./team_stuff/default.png";
 
 import styles from "./team_stuff/team.module.css";
+import styles1 from "./sponsor_stuff/layout.module.css"
 
 const Team = ({ data }) => {
   const { frontmatter } = data;
   const { title, form_action, phone, mail, location } = frontmatter;
 
   return (
-    <div className={styles.content}>
+    <div className={styles1.content}>
         <article className={styles.team}>
             <h2 className={[styles.team__title, "text_center"].join(' ')} style={{textAlign: "center"}}>
                 Our Team
