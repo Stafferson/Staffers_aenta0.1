@@ -6,6 +6,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
 import "styles/style.scss";
+import { Analytics } from '@vercel/analytics/react';
 
 const App = ({ Component, pageProps }) => {
   // default theme setup
@@ -56,14 +57,9 @@ const App = ({ Component, pageProps }) => {
           content="width=device-width, initial-scale=1, maximum-scale=5"
         />
       </Head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-69CNW1RM58"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        dataLayer.push('js', new Date());
-        dataLayer.push('config', 'G-69CNW1RM58');
-      </script>
       <ThemeProvider attribute="class" defaultTheme={default_theme}>
         <Component {...pageProps} />
+        <Analytics/>
       </ThemeProvider>
     </JsonContext>
   );
