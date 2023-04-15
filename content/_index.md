@@ -1,7 +1,7 @@
 ---
 banner:
   title: Welcome **!**
-  title_small: "to AENTA's Website"
+  title_small: "to AENTAssss's Website"
   content: "Building the Future, One Bot at a Time!"
   image_enable: true
   image: /images/banner-author.png
