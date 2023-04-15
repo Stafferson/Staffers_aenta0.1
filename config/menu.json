@@ -14,23 +14,11 @@
     },
     {
       "name": "Sponsors",
-      "url": "/sponsors"
+      "url": "/contactus"
     },
     {
       "name": "Contact Us",
-      "url": "/contactus"
-    },
-    
-    {
-      "name": "FTC Seasons",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Season 2022-2023",
-          "url": "/ftc-2022-2023"
-        }
-      ]
+      "url": "/sponsors"
     }
   ],
   "footer": [

@@ -1,11 +1,12 @@
-import SponsorList from "./sponsor_stuff/sponsor-list"
-import SponsorTier from "./sponsor_stuff/sponsor-tier"
-import styles from "./sponsor_stuff/sponsors.module.css"
-import styles1 from "./sponsor_stuff/layout.module.css"
+import { markdownify } from "@lib/utils/textConverter";
+import Link from "next/link";
+import { BsArrowRightShort } from "react-icons/bs";
+import { FaEnvelope, FaMapMarkerAlt, FaUserAlt } from "react-icons/fa";
+import ImageFallback from "./components/ImageFallback";
 
 const Sponsors = ({ data }) => {
-  const { frontmatter } = data;
-  const { title, form_action, phone, mail, location } = frontmatter;
+    const { frontmatter } = data;
+    const { title, form_action, phone, mail, location } = frontmatter;
 
   return (
     <section className="section lg:mt-16">
